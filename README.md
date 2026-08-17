@@ -24,15 +24,55 @@
 
 Soy estudiante de **Game Development**, interesado en la programación, el diseño de videojuegos y la creación de experiencias interactivas.
 
-Mis intereses están enfocados en la **adrenalina de los disparos con la mente de un estratega**. No me quedo en un solo estilo y disfruto de experiencias variadas.
+Mis intereses están enfocados en la **acción, la estrategia, la competencia y la gestión**. Disfruto de diferentes estilos de videojuegos y de las experiencias que cada género puede ofrecer.
 
-### 🎯 Mis principales intereses
+---
 
-| 🎮 Estilo | ❤️ Lo que me gusta |
-|---|---|
-| 🔥 Acción táctica | La inmersión de la guerra a gran escala en **Battlefield** y **Hell Let Loose** |
-| 🦸 Héroes y competencia | El ritmo rápido y el juego en equipo de **Overwatch** |
-| 🧠 Estrategia y gestión | Comandar ejércitos en **Army Men RTS** y construir imperios en juegos tipo **Tycoon** |
+# 🎮 MIS INTERESES EN VIDEOJUEGOS
+
+## 🔥 Acción táctica y combate
+
+<div align="center">
+
+<img src="assets/battlefield.png" width="220" alt="Battlefield">
+
+<img src="assets/hellletloose.png" width="220" alt="Hell Let Loose">
+
+</div>
+
+Me encanta la inmersión de los juegos de guerra a gran escala, especialmente la intensidad de los combates, la coordinación entre jugadores y el trabajo en equipo.
+
+**Battlefield** y **Hell Let Loose** destacan para mí por sus escenarios de combate, estrategia y sensación de inmersión.
+
+---
+
+## 🦸 Héroes y competencia
+
+<div align="center">
+
+<img src="assets/overwatch.png" width="300" alt="Overwatch">
+
+</div>
+
+También disfruto de experiencias rápidas y competitivas.
+
+**Overwatch** destaca por su variedad de héroes, habilidades únicas, trabajo en equipo y ritmo de juego.
+
+---
+
+## 🧠 Estrategia y gestión
+
+<div align="center">
+
+<img src="assets/armymen.png" width="300" alt="Army Men RTS">
+
+</div>
+
+Los juegos de estrategia también forman parte de mis intereses.
+
+Me gusta la posibilidad de **comandar unidades, tomar decisiones, administrar recursos y construir estrategias** para alcanzar la victoria.
+
+**Army Men RTS** es uno de los ejemplos que representan este estilo de juego.
 
 ---
 
@@ -66,7 +106,7 @@ Además, durante el desarrollo se utilizaron herramientas de **Inteligencia Arti
 
 **Pixel Math Quest** es un videojuego educativo de plataformas inspirado en el estilo de los clásicos juegos de aventura y plataformas.
 
-El jugador debe avanzar por diferentes niveles mientras resuelve **operaciones matemáticas básicas**, superando obstáculos y enfrentándose a desafíos durante el recorrido.
+El jugador debe avanzar por diferentes niveles mientras resuelve **operaciones matemáticas básicas**, superando obstáculos y desafíos durante el recorrido.
 
 ### 📌 Información del proyecto
 
@@ -96,7 +136,7 @@ Este proyecto permitió practicar:
 
 ---
 
-# 🌱 EcoDrop
+## 🌱 EcoDrop
 
 <div align="center">
 
@@ -132,14 +172,13 @@ La dificultad aumenta progresivamente mediante el incremento de la velocidad de 
 
 ### 🕹️ Mecánica principal
 
-El jugador debe identificar rápidamente cada objeto y colocarlo en el contenedor correspondiente antes de que termine el tiempo o aumente demasiado la dificultad.
+El jugador debe identificar rápidamente cada objeto y colocarlo en el contenedor correspondiente.
 
 ### 📚 Aprendizaje
 
 Este proyecto permitió practicar:
 
 - Manejo de eventos.
-- Colisiones e interacción.
 - Temporizadores.
 - Incremento progresivo de dificultad.
 - Diseño de interfaces.
@@ -149,7 +188,7 @@ Este proyecto permitió practicar:
 
 ---
 
-# 🥦 Nutri Invaders
+## 🥦 Nutri Invaders
 
 <div align="center">
 
@@ -250,7 +289,7 @@ Durante el desarrollo de estos proyectos adquirí experiencia en diferentes áre
 - Lógica de videojuegos.
 - Mecánicas de juego.
 - Sistemas de puntuación.
-- Colisiones y movimiento.
+- Movimiento y colisiones.
 
 ### 🎨 Diseño
 
@@ -309,11 +348,11 @@ Los proyectos pueden continuar evolucionando mediante nuevas versiones.
 
 ---
 
-# 🎮 GAME DEVELOPMENT
-
 <div align="center">
 
 <img src="assets/marco.jpg" width="120" alt="Logo">
+
+# 🎮 GAME DEVELOPMENT
 
 ### 👨‍💻 Cristhian Giovanni Pacsi Pari
 
