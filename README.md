@@ -132,7 +132,7 @@ Este proyecto permitió practicar:
 - Interacción entre jugador y escenario.
 - Diseño de interfaces.
 
-👉 **[🎮 Ver proyecto](Pixel-Math-Quest/)**
+👉 **[🎮 Ver proyecto](PixelMathQuest/)**
 
 ---
 
