@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pixel Math Quest</title>
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body {
+    margin: 0; padding: 0; height: 100%;
+    background: #0d0d1a;
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+    overflow: hidden;
+    user-select: none;
+  }
+  #wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 900px;
+    max-height: 500px;
+    margin: 0 auto;
+    background: #000;
+    border: 4px solid #1a1a2e;
+  }
+  @media (min-height: 560px) {
+    #wrap { margin-top: 30px; border-radius: 12px; box-shadow: 0 8px 0 #14141f, 0 12px 22px rgba(0,0,0,.5); }
+  }
+  canvas { display: block; width: 100%; height: 100%; image-rendering: pixelated; }
+
+  /* HUD */
+  #hud {
+    position: absolute; top: 0; left: 0; right: 0;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 8px 14px;
+    font-weight: bold; color: #fff; font-size: 15px;
+    text-shadow: 2px 2px 0 rgba(0,0,0,.6);
+    pointer-events: none;
+    z-index: 5;
+  }
+  #hud .badge { background: rgba(0,0,0,.35); padding: 4px 10px; border-radius: 8px; }
+
+  /* Touch controls */
+  #touchControls {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    display: flex; justify-content: space-between; align-items: flex-end;
+    padding: 0 14px 14px; z-index: 5;
+  }
+  .tbtn {
+    width: 58px; height: 58px; border-radius: 50%;
+    background: rgba(255,255,255,.18);
+    border: 2px solid rgba(255,255,255,.5);
+    color: #fff; font-size: 22px; font-weight: bold;
+    display: flex; align-items: center; justify-content: center;
+    touch-action: none;
+  }
+  .tbtn:active { background: rgba(255,255,255,.4); }
+  #moveGroup { display: flex; gap: 10px; }
+  #instructions {
+    position: absolute; top: 42px; left: 0; right: 0;
+    text-align: center; color: #fff; font-size: 12px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.6);
+    pointer-events: none; z-index: 5;
+    opacity: .9;
+  }
+
+  /* Overlays */
+  .overlay {
+    position: absolute; inset: 0;
+    background: rgba(10,10,20,.88);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 10; padding: 16px;
+  }
+  .hidden { display: none !important; }
+  .panel {
+    background: #2b2b3d; border: 4px solid #5c5c8a; border-radius: 14px;
+    padding: 22px; max-width: 420px; width: 100%; color: #fff;
+    text-align: center;
+  }
+  .panel h1 { margin: 0 0 6px; font-size: 1.5em; color: #FFD54F; text-shadow: 2px 2px 0 #E65100; }
+  .panel p { color: #CFD8DC; font-size: .92em; line-height: 1.4; }
+  .start-btn, .next-btn, .restart-btn {
+    display: inline-block; margin-top: 14px;
+    background: #42A5F5; border: none; border-bottom: 5px solid #1565C0;
+    border-radius: 10px; color: #fff; font-size: 1em; font-weight: bold;
+    padding: 12px 26px; cursor: pointer;
+  }
+  .start-btn:active, .next-btn:active, .restart-btn:active { transform: translateY(2px); border-bottom-width: 2px; }
+
+  .question-box {
+    background: #3d3d5c; border: 3px solid #5c5c8a; border-radius: 12px;
+    padding: 18px 12px; font-size: 1.8em; font-weight: bold; margin-bottom: 16px;
+    letter-spacing: 2px;
+  }
+  .gate-label { font-size: .8em; color: #FFD54F; margin-bottom: 6px; }
+  .options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .opt-btn {
+    background: #FF7043; border: none; border-bottom: 5px solid #BF360C;
+    border-radius: 10px; color: #fff; font-size: 1.15em; font-weight: bold;
+    padding: 14px 6px; cursor: pointer;
+  }
+  .opt-btn:active:not(:disabled) { transform: translateY(2px); border-bottom-width: 2px; }
+  .opt-btn:disabled { cursor: default; }
+  .opt-btn.correct { background: #66BB6A; border-color: #2E7D32; }
+  .opt-btn.incorrect { background: #EF5350; border-color: #B71C1C; }
+  .feedback { min-height: 26px; margin-top: 12px; font-weight: bold; }
+  .feedback.ok { color: #A5D6A7; }
+  .feedback.bad { color: #EF9A9A; }
+
+  .big-score { font-size: 2.6em; color: #FFD54F; font-weight: bold; margin: 8px 0; text-shadow: 2px 2px 0 #E65100; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game"></canvas>
+
+  <div id="hud">
+    <div class="badge">🧩 Plataforma <span id="hudGate">0</span>/10</div>
+    <div class="badge">⭐ Puntaje: <span id="hudScore">0</span></div>
+  </div>
+  <div id="instructions">← → mover · ESPACIO / ▲ saltar · llega a cada cartel "?" para resolver la operación y cruzar</div>
+
+  <div id="touchControls">
+    <div id="moveGroup">
+      <div class="tbtn" id="btnLeft">◀</div>
+      <div class="tbtn" id="btnRight">▶</div>
+    </div>
+    <div class="tbtn" id="btnJump">▲</div>
+  </div>
+
+  <!-- START -->
+  <div class="overlay" id="startScreen">
+    <div class="panel">
+      <h1>🎮 PIXEL MATH QUEST</h1>
+      <p>Corre y salta a través de 10 plataformas. En cada cartel con "?" deberás resolver una operación matemática para que aparezca el puente y puedas seguir avanzando. ¡Llega a la bandera final!</p>
+      <button class="start-btn" id="startBtn">▶ INICIAR AVENTURA</button>
+    </div>
+  </div>
+
+  <!-- QUESTION -->
+  <div class="overlay hidden" id="questionScreen">
+    <div class="panel">
+      <div class="gate-label">Plataforma <span id="qGateNum">1</span> de 10 — resuelve para construir el puente</div>
+      <div class="question-box" id="questionText">?</div>
+      <div class="options" id="optionsGrid"></div>
+      <div class="feedback" id="feedbackText"></div>
+      <button class="next-btn hidden" id="nextBtn">Cruzar el puente ▶</button>
+    </div>
+  </div>
+
+  <!-- END -->
+  <div class="overlay hidden" id="endScreen">
+    <div class="panel">
+      <h1>🏁 ¡Meta alcanzada!</h1>
+      <div class="big-score"><span id="finalScore">0</span> / 10</div>
+      <p id="finalMessage"></p>
+      <button class="restart-btn" id="restartBtn">🔄 Jugar de nuevo</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ================= CONFIG ================= */
+const canvas = document.getElementById('game');
+const ctx = canvas.getContext('2d');
+const VIEW_W = 900, VIEW_H = 500;
+canvas.width = VIEW_W; canvas.height = VIEW_H;
+
+const GROUND_Y = 380;
+const GRAVITY = 0.7;
+const MOVE_SPEED = 4.2;
+const JUMP_VELOCITY = -13.5;
+const TOTAL_GATES = 10;
+
+/* ================= LEVEL BUILD ================= */
+let platforms = [];
+let gates = [];
+let flagX = 0;
+let totalWidth = 0;
+
+function buildLevel() {
+  platforms = [];
+  gates = [];
+  let x = 0;
+  platforms.push({ start: 0, end: 420 });
+  x = 420;
+  for (let i = 0; i < TOTAL_GATES; i++) {
+    const gateX = x;
+    const gapWidth = 130;
+    const gapStart = x;
+    const gapEnd = x + gapWidth;
+    x = gapEnd;
+    const platWidth = 250;
+    platforms.push({ start: x, end: x + platWidth });
+    gates.push({ index: i, x: gateX, gapStart, gapEnd, resolved: false });
+    x += platWidth;
+  }
+  flagX = x - 60;
+  totalWidth = x + 100;
+}
+
+/* ================= QUESTIONS ================= */
+function randInt(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
+
+function generateQuestion(operation) {
+  let a, b, answer, text;
+  switch (operation) {
+    case 'suma': a = randInt(5, 50); b = randInt(5, 50); answer = a + b; text = `${a} + ${b}`; break;
+    case 'resta': a = randInt(10, 60); b = randInt(1, a); answer = a - b; text = `${a} - ${b}`; break;
+    case 'multiplicacion': a = randInt(2, 12); b = randInt(2, 12); answer = a * b; text = `${a} × ${b}`; break;
+    case 'division': b = randInt(2, 12); answer = randInt(2, 12); a = b * answer; text = `${a} ÷ ${b}`; break;
+  }
+  return { text, answer };
+}
+function generateAlternatives(answer) {
+  const options = new Set([answer]);
+  while (options.size < 4) {
+    const c = answer + randInt(-10, 10);
+    if (c >= 0 && c !== answer) options.add(c);
+  }
+  return shuffle([...options]);
+}
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) { const j = randInt(0, i); [arr[i], arr[j]] = [arr[j], arr[i]]; }
+  return arr;
+}
+function buildQuestionSet() {
+  const ops = ['suma', 'resta', 'multiplicacion', 'division'];
+  const set = [];
+  ops.forEach(op => { set.push(generateQuestion(op)); set.push(generateQuestion(op)); });
+  while (set.length < TOTAL_GATES) set.push(generateQuestion(ops[randInt(0, ops.length - 1)]));
+  return shuffle(set).slice(0, TOTAL_GATES).map(q => ({ ...q, options: generateAlternatives(q.answer) }));
+}
+
+let questions = [];
+let score = 0;
+
+/* ================= PLAYER ================= */
+const player = { x: 40, y: 0, w: 28, h: 42, vx: 0, vy: 0, grounded: false, facing: 1, animT: 0 };
+const camera = { x: 0 };
+const keys = { left: false, right: false, jump: false };
+
+function isSolidAt(px) {
+  return platforms.some(p => px >= p.start && px <= p.end);
+}
+
+function resetPlayer() {
+  player.x = 40; player.y = GROUND_Y - player.h; player.vx = 0; player.vy = 0; player.grounded = true; player.facing = 1;
+}
+
+/* ================= GAME STATE ================= */
+let state = 'start';
+let activeGate = null;
+
+function startGame() {
+  buildLevel();
+  questions = buildQuestionSet();
+  score = 0;
+  resetPlayer();
+  camera.x = 0;
+  updateHud();
+  document.getElementById('startScreen').classList.add('hidden');
+  document.getElementById('endScreen').classList.add('hidden');
+  state = 'playing';
+}
+
+function updateHud() {
+  document.getElementById('hudScore').textContent = score;
+  const resolvedCount = gates.filter(g => g.resolved).length;
+  document.getElementById('hudGate').textContent = Math.min(resolvedCount + (state === 'question' ? 1 : 0), TOTAL_GATES);
+}
+
+/* ---- Question overlay logic ---- */
+function openQuestion(gate) {
+  activeGate = gate;
+  state = 'question';
+  const q = questions[gate.index];
+  document.getElementById('qGateNum').textContent = gate.index + 1;
+  document.getElementById('questionText').textContent = q.text + ' = ?';
+  document.getElementById('feedbackText').textContent = '';
+  document.getElementById('feedbackText').className = 'feedback';
+  document.getElementById('nextBtn').classList.add('hidden');
+  const grid = document.getElementById('optionsGrid');
+  grid.innerHTML = '';
+  q.options.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className = 'opt-btn';
+    btn.textContent = opt;
+    btn.onclick = () => answerQuestion(opt, btn, gate, q);
+    grid.appendChild(btn);
+  });
+  document.getElementById('questionScreen').classList.remove('hidden');
+  updateHud();
+}
+
+function answerQuestion(selected, btnEl, gate, q) {
+  const buttons = document.querySelectorAll('#optionsGrid .opt-btn');
+  buttons.forEach(b => b.disabled = true);
+  const feedback = document.getElementById('feedbackText');
+  let correct = selected === q.answer;
+  if (correct) {
+    score++;
+    btnEl.classList.add('correct');
+    feedback.textContent = '✅ ¡Correcto! +1 punto. El puente aparece.';
+    feedback.className = 'feedback ok';
+  } else {
+    btnEl.classList.add('incorrect');
+    buttons.forEach(b => { if (parseInt(b.textContent) === q.answer) b.classList.add('correct'); });
+    feedback.textContent = `❌ Incorrecto. Era ${q.answer}. El puente aparece igual, ¡sigue avanzando!`;
+    feedback.className = 'feedback bad';
+  }
+  gate.resolved = true;
+  gate.correct = correct;
+  platforms.push({ start: gate.gapStart, end: gate.gapEnd, bridge: true, correct });
+  updateHud();
+  document.getElementById('nextBtn').classList.remove('hidden');
+}
+
+document.getElementById('nextBtn').addEventListener('click', () => {
+  document.getElementById('questionScreen').classList.add('hidden');
+  state = 'playing';
+  player.x = Math.min(player.x + 14, totalWidth - player.w);
+  activeGate = null;
+});
+
+function showEnd() {
+  state = 'end';
+  document.getElementById('finalScore').textContent = score;
+  let msg;
+  if (score === 10) msg = '🏆 ¡Puntaje perfecto! Eres un maestro de las matemáticas.';
+  else if (score >= 8) msg = '🌟 ¡Excelente trabajo! Dominas muy bien las operaciones.';
+  else if (score >= 6) msg = '👍 ¡Buen intento! Vas por buen camino.';
+  else if (score >= 4) msg = '💪 Sigue practicando, ¡puedes mejorar!';
+  else msg = '📚 Repasa las operaciones y vuelve a intentarlo.';
+  document.getElementById('finalMessage').textContent = msg;
+  document.getElementById('endScreen').classList.remove('hidden');
+}
+
+/* ================= INPUT ================= */
+window.addEventListener('keydown', e => {
+  if (['ArrowLeft','ArrowRight','ArrowUp',' '].includes(e.key)) e.preventDefault();
+  if (e.key === 'ArrowLeft') keys.left = true;
+  if (e.key === 'ArrowRight') keys.right = true;
+  if (e.key === 'ArrowUp' || e.key === ' ') keys.jump = true;
+});
+window.addEventListener('keyup', e => {
+  if (e.key === 'ArrowLeft') keys.left = false;
+  if (e.key === 'ArrowRight') keys.right = false;
+  if (e.key === 'ArrowUp' || e.key === ' ') keys.jump = false;
+});
+function bindTouch(id, onDown, onUp) {
+  const el = document.getElementById(id);
+  el.addEventListener('touchstart', e => { e.preventDefault(); onDown(); });
+  el.addEventListener('touchend', e => { e.preventDefault(); onUp(); });
+  el.addEventListener('mousedown', e => { e.preventDefault(); onDown(); });
+  el.addEventListener('mouseup', e => { e.preventDefault(); onUp(); });
+  el.addEventListener('mouseleave', () => onUp());
+}
+bindTouch('btnLeft', () => keys.left = true, () => keys.left = false);
+bindTouch('btnRight', () => keys.right = true, () => keys.right = false);
+bindTouch('btnJump', () => keys.jump = true, () => keys.jump = false);
+
+document.getElementById('startBtn').addEventListener('click', startGame);
+document.getElementById('restartBtn').addEventListener('click', () => {
+  document.getElementById('endScreen').classList.add('hidden');
+  document.getElementById('startScreen').classList.remove('hidden');
+  state = 'start';
+});
+
+/* ================= UPDATE / PHYSICS ================= */
+function update() {
+  if (state !== 'playing') return;
+
+  player.vx = 0;
+  if (keys.left) { player.vx = -MOVE_SPEED; player.facing = -1; }
+  if (keys.right) { player.vx = MOVE_SPEED; player.facing = 1; }
+  if (keys.jump && player.grounded) { player.vy = JUMP_VELOCITY; player.grounded = false; }
+
+  let nextX = player.x + player.vx;
+
+  const blockingGate = gates.find(g => !g.resolved && nextX + player.w > g.x && player.x <= g.x);
+  if (blockingGate) {
+    nextX = blockingGate.x - player.w;
+  }
+  nextX = Math.max(0, Math.min(nextX, totalWidth - player.w));
+  player.x = nextX;
+
+  player.vy += GRAVITY;
+  let nextY = player.y + player.vy;
+
+  const feetX = player.x + player.w / 2;
+  const onSolid = isSolidAt(feetX);
+  const groundTop = GROUND_Y - player.h;
+
+  if (onSolid && nextY >= groundTop) {
+    nextY = groundTop;
+    player.vy = 0;
+    player.grounded = true;
+  } else {
+    player.grounded = false;
+  }
+  player.y = nextY;
+
+  if (player.y > VIEW_H + 100) {
+    const g = gates.find(g => feetX >= g.gapStart - 40 && feetX <= g.gapEnd + 40);
+    player.x = g ? Math.max(0, g.x - 60) : 40;
+    player.y = groundTop;
+    player.vy = 0;
+  }
+
+  const hitGate = gates.find(g => !g.resolved && player.x + player.w >= g.x && player.grounded);
+  if (hitGate) {
+    player.x = hitGate.x - player.w;
+    openQuestion(hitGate);
+  }
+
+  if (player.x + player.w >= flagX && gates.every(g => g.resolved)) {
+    showEnd();
+  }
+
+  camera.x = Math.max(0, Math.min(player.x - VIEW_W / 2.5, totalWidth - VIEW_W));
+
+  player.animT += Math.abs(player.vx) > 0.1 ? 0.25 : 0;
+}
+
+/* ================= RENDER ================= */
+function drawBackground() {
+  const grad = ctx.createLinearGradient(0, 0, 0, VIEW_H);
+  grad.addColorStop(0, '#6EC6FF');
+  grad.addColorStop(1, '#BBDEFB');
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, VIEW_W, VIEW_H);
+
+  ctx.fillStyle = 'rgba(255,255,255,0.85)';
+  for (let i = 0; i < 8; i++) {
+    const cx = (i * 260 - camera.x * 0.3) % (totalWidth + 300);
+    const wrapped = ((cx % (VIEW_W + 300)) + (VIEW_W + 300)) % (VIEW_W + 300) - 150;
+    drawCloud(wrapped, 40 + (i % 3) * 30);
+  }
+  ctx.fillStyle = '#8BC34A';
+  for (let i = 0; i < 10; i++) {
+    const hx = i * 300 - camera.x * 0.6;
+    ctx.beginPath();
+    ctx.ellipse(hx, GROUND_Y + 10, 160, 60, 0, Math.PI, 2 * Math.PI);
+    ctx.fill();
+  }
+}
+function drawCloud(x, y) {
+  ctx.beginPath();
+  ctx.ellipse(x, y, 26, 16, 0, 0, Math.PI * 2);
+  ctx.ellipse(x + 22, y + 4, 20, 13, 0, 0, Math.PI * 2);
+  ctx.ellipse(x - 22, y + 4, 20, 13, 0, 0, Math.PI * 2);
+  ctx.fill();
+}
+
+function drawPlatforms() {
+  platforms.forEach(p => {
+    const sx = p.start - camera.x;
+    const w = p.end - p.start;
+    if (sx + w < 0 || sx > VIEW_W) return;
+    if (p.bridge) {
+      ctx.fillStyle = p.correct ? '#66BB6A' : '#B0BEC5';
+      ctx.fillRect(sx, GROUND_Y, w, VIEW_H - GROUND_Y);
+      ctx.fillStyle = p.correct ? '#388E3C' : '#78909C';
+      ctx.fillRect(sx, GROUND_Y, w, 8);
+      ctx.strokeStyle = 'rgba(0,0,0,0.15)';
+      for (let lx = 0; lx < w; lx += 20) { ctx.beginPath(); ctx.moveTo(sx + lx, GROUND_Y); ctx.lineTo(sx + lx, GROUND_Y + 20); ctx.stroke(); }
+    } else {
+      ctx.fillStyle = '#8D6E63';
+      ctx.fillRect(sx, GROUND_Y, w, VIEW_H - GROUND_Y);
+      ctx.fillStyle = '#689F38';
+      ctx.fillRect(sx, GROUND_Y, w, 10);
+      ctx.fillStyle = '#7CB342';
+      ctx.fillRect(sx, GROUND_Y, w, 4);
+    }
+  });
+}
+
+function drawGates() {
+  gates.forEach(g => {
+    if (g.resolved) return;
+    const sx = g.x - camera.x;
+    if (sx < -40 || sx > VIEW_W + 40) return;
+    ctx.fillStyle = '#6D4C41';
+    ctx.fillRect(sx - 4, GROUND_Y - 90, 8, 90);
+    ctx.fillStyle = '#FFB300';
+    ctx.strokeStyle = '#E65100';
+    ctx.lineWidth = 3;
+    roundRect(sx - 26, GROUND_Y - 130, 52, 44, 8, true, true);
+    ctx.fillStyle = '#4E342E';
+    ctx.font = 'bold 26px sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText('?', sx, GROUND_Y - 108);
+  });
+  const fx = flagX - camera.x;
+  if (fx > -60 && fx < VIEW_W + 60) {
+    ctx.fillStyle = '#8D6E63';
+    ctx.fillRect(fx - 3, GROUND_Y - 150, 6, 150);
+    ctx.fillStyle = gates.every(g => g.resolved) ? '#66BB6A' : '#EF5350';
+    ctx.beginPath();
+    ctx.moveTo(fx + 3, GROUND_Y - 150);
+    ctx.lineTo(fx + 46, GROUND_Y - 132);
+    ctx.lineTo(fx + 3, GROUND_Y - 114);
+    ctx.closePath();
+    ctx.fill();
+  }
+}
+function roundRect(x, y, w, h, r, fill, stroke) {
+  ctx.beginPath();
+  ctx.moveTo(x + r, y);
+  ctx.arcTo(x + w, y, x + w, y + h, r);
+  ctx.arcTo(x + w, y + h, x, y + h, r);
+  ctx.arcTo(x, y + h, x, y, r);
+  ctx.arcTo(x, y, x + w, y, r);
+  ctx.closePath();
+  if (fill) ctx.fill();
+  if (stroke) ctx.stroke();
+}
+
+function drawPlayer() {
+  const sx = player.x - camera.x;
+  const sy = player.y;
+  ctx.save();
+  ctx.translate(sx + player.w / 2, sy + player.h / 2);
+  ctx.scale(player.facing, 1);
+  ctx.fillStyle = '#E53935';
+  roundRect(-player.w/2, -player.h/2 + 10, player.w, player.h - 18, 5, true, false);
+  ctx.fillStyle = '#FFCCBC';
+  ctx.beginPath();
+  ctx.arc(0, -player.h/2 + 4, 10, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.fillStyle = '#1E88E5';
+  ctx.beginPath();
+  ctx.arc(0, -player.h/2 + 1, 10, Math.PI, 2 * Math.PI);
+  ctx.fill();
+  ctx.fillRect(-10, -player.h/2 - 1, 20, 4);
+  ctx.fillRect(6, -player.h/2 - 1, 10, 3);
+  const legOffset = player.grounded ? Math.sin(player.animT) * 6 : 4;
+  ctx.fillStyle = '#3949AB';
+  ctx.fillRect(-player.w/2 + 2, player.h/2 - 12, 8, 12 + legOffset * 0.2);
+  ctx.fillRect(player.w/2 - 10, player.h/2 - 12, 8, 12 - legOffset * 0.2);
+  ctx.restore();
+}
+
+function render() {
+  drawBackground();
+  drawPlatforms();
+  drawGates();
+  if (state === 'playing' || state === 'question') drawPlayer();
+}
+
+/* ================= LOOP ================= */
+function loop() {
+  update();
+  render();
+  requestAnimationFrame(loop);
+}
+buildLevel();
+resetPlayer();
+loop();
+</script>
+</body>
+</html>
