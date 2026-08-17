@@ -1,10 +1,12 @@
 <div align="center">
 
-# 🎮 Game Development Portfolio
+<img src="assets/marco.jpg" width="180" alt="Logo personal">
 
-### 🕹️ Proyectos, creatividad y desarrollo de videojuegos
+# 🎮 GAME DEVELOPMENT PORTFOLIO
 
-**HTML • CSS • JavaScript • GitHub • IA**
+### 🕹️ Proyectos • Creatividad • Programación • Videojuegos
+
+**HTML • CSS • JavaScript • GitHub • Inteligencia Artificial**
 
 </div>
 
@@ -34,182 +36,293 @@ Mis intereses están enfocados en la **adrenalina de los disparos con la mente d
 
 ---
 
-## 🕹️ Sobre este portafolio
+# 🕹️ SOBRE ESTE PORTAFOLIO
 
-Este repositorio reúne los videojuegos y prototipos desarrollados durante las primeras clases de la asignatura **Game Development**.
+Este repositorio reúne los **videojuegos y prototipos** desarrollados durante las primeras clases de la asignatura **Game Development**.
 
 Los proyectos fueron desarrollados principalmente utilizando:
 
-**HTML + CSS + JavaScript**
+### 💻 Tecnologías principales
 
-y cuentan con apoyo de herramientas de **Inteligencia Artificial** durante diferentes etapas del proceso de desarrollo.
+**HTML5 • CSS3 • JavaScript**
+
+Además, durante el desarrollo se utilizaron herramientas de **Inteligencia Artificial como apoyo** para diferentes tareas de programación, diseño, generación de ideas y resolución de problemas.
 
 ---
 
-# 🎮 Mis Videojuegos
+# 🎮 MIS VIDEOJUEGOS
 
 ---
 
 ## 🎯 Pixel Math Quest
 
+<div align="center">
+
+<img src="assets/pixelMath.png" width="750" alt="Pixel Math Quest">
+
+</div>
+
 ### 🧮 Aprende matemáticas mientras juegas
 
-Videojuego educativo de plataformas inspirado en el estilo de **Mario Bros**, donde el jugador debe avanzar por niveles mientras resuelve **operaciones matemáticas básicas**.
+**Pixel Math Quest** es un videojuego educativo de plataformas inspirado en el estilo de los clásicos juegos de aventura y plataformas.
 
-El objetivo es aprender matemáticas de forma divertida mientras se superan obstáculos y enemigos dentro del nivel.
+El jugador debe avanzar por diferentes niveles mientras resuelve **operaciones matemáticas básicas**, superando obstáculos y enfrentándose a desafíos durante el recorrido.
 
-### 📌 Información
+### 📌 Información del proyecto
 
 | | |
 |---|---|
 | 🎮 **Género** | Platformer / Educational |
 | 💻 **Tecnologías** | HTML, CSS, JavaScript |
 | 🤖 **IA** | Utilizada como apoyo |
-| 🎯 **Objetivo** | Resolver operaciones y superar los niveles |
+| 🎯 **Objetivo** | Resolver operaciones matemáticas y superar los niveles |
+
+### 🕹️ Mecánica principal
+
+El jugador avanza por el escenario y se enfrenta a preguntas matemáticas que debe responder correctamente para continuar con la aventura.
+
+### 📚 Aprendizaje
+
+Este proyecto permitió practicar:
+
+- Programación con JavaScript.
+- Diseño de videojuegos web.
+- Eventos del teclado.
+- Sistemas de puntuación.
+- Interacción entre jugador y escenario.
+- Diseño de interfaces.
 
 👉 **[🎮 Ver proyecto](Pixel-Math-Quest/)**
 
 ---
 
-## 🌱 EcoDrop
+# 🌱 EcoDrop
+
+<div align="center">
+
+<img src="assets/Ecodr.png" width="750" alt="EcoDrop">
+
+</div>
 
 ### ♻️ Clasifica. Reacciona. Recicla.
 
-Videojuego tipo **caída y clasificación rápida**, donde desde la parte superior de la pantalla caen diferentes tipos de basura.
+**EcoDrop** es un videojuego educativo de tipo arcade basado en la **clasificación de residuos**.
 
-El jugador debe reaccionar rápidamente y clasificar cada objeto en su contenedor correcto.
+Desde la parte superior de la pantalla aparecen diferentes tipos de residuos y el jugador debe reaccionar rápidamente para colocarlos en el contenedor correspondiente.
 
-### 🗑️ Elementos
+### 🗑️ Tipos de residuos
 
-- 📄 Papel
-- 🧴 Plástico
-- 🍾 Vidrio
-- 🍎 Orgánico
+| ♻️ Residuo | 🗑️ Categoría |
+|---|---|
+| 📄 Papel | Papel |
+| 🧴 Plástico | Plástico |
+| 🍾 Vidrio | Vidrio |
+| 🍎 Orgánico | Orgánico |
 
-La dificultad aumenta progresivamente debido a que la velocidad de caída de los objetos se incrementa, poniendo a prueba los **reflejos y la atención del jugador**.
+La dificultad aumenta progresivamente mediante el incremento de la velocidad de caída de los objetos, poniendo a prueba la **atención y los reflejos del jugador**.
 
-### 📌 Información
+### 📌 Información del proyecto
 
 | | |
 |---|---|
-| 🎮 **Género** | Arcade / Reflexos / Educational |
+| 🎮 **Género** | Arcade / Educational |
 | 💻 **Tecnologías** | HTML, CSS, JavaScript |
 | 🤖 **IA** | Utilizada como apoyo |
 | 🎯 **Objetivo** | Clasificar correctamente los residuos |
+
+### 🕹️ Mecánica principal
+
+El jugador debe identificar rápidamente cada objeto y colocarlo en el contenedor correspondiente antes de que termine el tiempo o aumente demasiado la dificultad.
+
+### 📚 Aprendizaje
+
+Este proyecto permitió practicar:
+
+- Manejo de eventos.
+- Colisiones e interacción.
+- Temporizadores.
+- Incremento progresivo de dificultad.
+- Diseño de interfaces.
+- Programación de mecánicas arcade.
 
 👉 **[🌱 Ver proyecto](EcoDrop/)**
 
 ---
 
-## 🥦 Nutri Invaders
+# 🥦 Nutri Invaders
+
+<div align="center">
+
+<img src="assets/NutriInvaders.png" width="750" alt="Nutri Invaders">
+
+</div>
 
 ### 👾 ¡Defiende una alimentación saludable!
 
-Videojuego inspirado en el clásico **Space Invaders**, pero con una temática relacionada con la **alimentación saludable**.
+**Nutri Invaders** es un videojuego inspirado en el clásico estilo de **Space Invaders**, pero adaptado a una temática relacionada con la **alimentación saludable**.
 
-El jugador debe destruir los alimentos chatarra, como pizza y otros alimentos poco saludables, representados mediante **bolas rojas**, mientras evita destruir los alimentos saludables representados mediante **bolas verdes**.
+El jugador debe identificar los alimentos poco saludables y destruirlos mientras evita atacar los alimentos saludables.
 
-El objetivo es mejorar la **precisión**, los **reflejos** y aprender a diferenciar entre alimentos saludables y alimentos poco saludables.
+### 🍕 Alimentos y objetivos
 
-### 📌 Información
+🔴 **Alimentos no saludables → Destruir**
+
+🟢 **Alimentos saludables → Evitar**
+
+El jugador debe mantener la precisión y reaccionar rápidamente para conseguir la mayor puntuación posible.
+
+### 📌 Información del proyecto
 
 | | |
 |---|---|
 | 🎮 **Género** | Shooter / Arcade / Educational |
 | 💻 **Tecnologías** | HTML, CSS, JavaScript |
 | 🤖 **IA** | Utilizada como apoyo |
-| 🎯 **Objetivo** | Identificar y destruir correctamente los alimentos no saludables |
+| 🎯 **Objetivo** | Identificar correctamente los alimentos no saludables |
+
+### 🕹️ Mecánica principal
+
+El jugador controla el disparo desde la parte inferior de la pantalla mientras diferentes objetos aparecen como enemigos.
+
+La dificultad aumenta mientras avanza la partida, obligando al jugador a mejorar sus reflejos y precisión.
+
+### 📚 Aprendizaje
+
+Este proyecto permitió practicar:
+
+- Movimiento de enemigos.
+- Disparos.
+- Colisiones.
+- Sistema de puntuación.
+- Detección de objetivos.
+- Aumento de dificultad.
+- Mecánicas de arcade.
 
 👉 **[🥦 Ver proyecto](Nutri-Invaders/)**
 
 ---
 
-# 🛠️ Tecnologías
+# 🛠️ TECNOLOGÍAS UTILIZADAS
 
 <div align="center">
 
-| Tecnología | Uso |
+| Tecnología | Utilización |
 |---|---|
-| 🌐 HTML5 | Estructura de los videojuegos |
-| 🎨 CSS3 | Diseño e interfaz |
-| ⚡ JavaScript | Lógica y mecánicas |
-| 🧠 IA | Apoyo durante el desarrollo |
-| 🔧 Git | Control de versiones |
-| 🐙 GitHub | Publicación y portafolio |
-| 💻 VS Code | Entorno de desarrollo |
+| 🌐 **HTML5** | Estructura de los videojuegos |
+| 🎨 **CSS3** | Diseño e interfaces |
+| ⚡ **JavaScript** | Lógica y mecánicas |
+| 🧠 **IA** | Apoyo durante el desarrollo |
+| 🔧 **Git** | Control de versiones |
+| 🐙 **GitHub** | Publicación y portafolio |
+| 💻 **Visual Studio Code** | Entorno de desarrollo |
 
 </div>
 
 ---
 
-# 🤖 Inteligencia Artificial
+# 🤖 USO DE INTELIGENCIA ARTIFICIAL
 
-La **Inteligencia Artificial** fue utilizada como una herramienta de apoyo durante el desarrollo de los proyectos.
+La **Inteligencia Artificial** fue utilizada como una herramienta de apoyo durante el desarrollo de los videojuegos.
 
-### 🧠 ¿En qué se utilizó?
+### 🧠 Aplicaciones de IA
 
-- 💡 Generación y mejora de ideas
-- 💻 Apoyo en programación
-- 🐛 Resolución de errores
-- ⚙️ Optimización y modificación de código
-- 🎨 Propuestas para el diseño visual
-- 🕹️ Desarrollo y mejora de mecánicas
-- 🖼️ Generación de recursos para los videojuegos
+- 💡 Generación y mejora de ideas.
+- 💻 Apoyo en programación.
+- 🐛 Resolución de errores.
+- ⚙️ Modificación y optimización de código.
+- 🎨 Propuestas para el diseño visual.
+- 🕹️ Desarrollo y mejora de mecánicas.
+- 🖼️ Generación de recursos.
+- 📚 Apoyo en documentación.
 
-> La IA fue utilizada como herramienta de apoyo. La integración, adaptación, pruebas y decisiones finales de los proyectos fueron realizadas durante el proceso de desarrollo.
-
----
-
-# 📚 Lo que aprendí
-
-Durante el desarrollo de estos proyectos adquirí experiencia en:
-
-- 🎮 Creación de videojuegos con tecnologías web
-- ⚡ Programación con JavaScript
-- 🎨 Diseño de interfaces con HTML y CSS
-- 🕹️ Implementación de mecánicas interactivas
-- ⌨️ Manejo de eventos y controles
-- 📁 Organización de proyectos
-- 🐙 Uso de Git y GitHub
-- 🤖 Uso de IA como herramienta de apoyo al desarrollo
+> **La IA fue utilizada como herramienta de apoyo durante el proceso. La integración, adaptación, pruebas y decisiones finales de cada proyecto fueron realizadas durante el desarrollo.**
 
 ---
 
-# 🚀 Mejoras futuras
+# 📚 ¿QUÉ APRENDÍ?
 
-En futuras versiones de los proyectos se podrían incorporar:
+Durante el desarrollo de estos proyectos adquirí experiencia en diferentes áreas del desarrollo de videojuegos.
 
-✨ Nuevos niveles y dificultad progresiva  
-🔊 Efectos de sonido y música  
+### 💻 Programación
+
+- JavaScript.
+- Eventos e interacción.
+- Lógica de videojuegos.
+- Mecánicas de juego.
+- Sistemas de puntuación.
+- Colisiones y movimiento.
+
+### 🎨 Diseño
+
+- Interfaces de usuario.
+- Organización visual.
+- Experiencia del jugador.
+- Presentación de proyectos.
+
+### 🎮 Game Development
+
+- Diseño de mecánicas.
+- Creación de prototipos.
+- Diseño de dificultad.
+- Conceptualización de videojuegos.
+- Pruebas y corrección de errores.
+
+### 🐙 GitHub
+
+- Creación de repositorios.
+- Organización de proyectos.
+- Archivos README.
+- Publicación de proyectos.
+- Uso básico de Git.
+
+---
+
+# 🚀 MEJORAS FUTURAS
+
+Los proyectos pueden continuar evolucionando mediante nuevas versiones.
+
+### 🔮 Posibles mejoras
+
+✨ Nuevos niveles  
+👾 Nuevos enemigos  
+🏆 Sistema de récords  
+🔊 Música y efectos de sonido  
 🎨 Animaciones más avanzadas  
-🏆 Sistemas de puntuación y récords  
-👾 Nuevos enemigos y personajes  
 🌎 Nuevos escenarios  
-⚙️ Mecánicas adicionales  
+⚙️ Nuevas mecánicas  
 🎮 Mejor experiencia de usuario  
+📱 Adaptación para diferentes dispositivos  
 
 ---
 
-# 📊 Proyectos
-
-| 🎮 Proyecto | 💻 Tecnología | 📌 Estado |
-|---|---|---|
-| 🎯 Pixel Math Quest | HTML / CSS / JavaScript | ✅ Completado |
-| 🌱 EcoDrop | HTML / CSS / JavaScript | ✅ Completado |
-| 🥦 Nutri Invaders | HTML / CSS / JavaScript | ✅ Completado |
-
----
+# 📊 RESUMEN DE PROYECTOS
 
 <div align="center">
 
-# 🎮 Game Development
+| 🎮 Proyecto | 🎯 Género | 💻 Tecnología | 📌 Estado |
+|---|---|---|---|
+| 🎯 Pixel Math Quest | Platformer / Educational | HTML / CSS / JS | ✅ Completado |
+| 🌱 EcoDrop | Arcade / Educational | HTML / CSS / JS | ✅ Completado |
+| 🥦 Nutri Invaders | Shooter / Arcade | HTML / CSS / JS | ✅ Completado |
 
-### 💻 Portfolio de desarrollo de videojuegos
-
-**HTML • CSS • JavaScript • GitHub • Artificial Intelligence**
+</div>
 
 ---
 
-⭐ *Gracias por visitar mi portafolio* ⭐
+# 🎮 GAME DEVELOPMENT
+
+<div align="center">
+
+<img src="assets/marco.jpg" width="120" alt="Logo">
+
+### 👨‍💻 Cristhian Giovanni Pacsi Pari
+
+**Game Development Portfolio**
+
+**HTML • CSS • JavaScript • GitHub • AI**
+
+---
+
+⭐ **Gracias por visitar mi portafolio** ⭐
 
 </div>
