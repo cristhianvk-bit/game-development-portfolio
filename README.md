@@ -2,7 +2,7 @@
 
   <img src="assets/marco.jpg" width="800" alt="Portafolio Game Development">
 
-  #  VIDEO GAME DEVELOPMENT PORTFOLIO
+  # 🎮 VIDEO GAME DEVELOPMENT PORTFOLIO
 
   ### 🕹️ Proyectos • Creatividad • Programación • Videojuegos
 
@@ -32,7 +32,7 @@ Mis intereses están enfocados en la **acción, la estrategia, la competencia y 
 
 # 🎮 MIS INTERESES EN VIDEOJUEGOS
 
-## 🔥 Acción táctica y combate
+##  Acción táctica y combate
 
 <div align="center">
 
@@ -98,7 +98,7 @@ Actualmente, el portafolio cuenta con **6 videojuegos**, cada uno con una temát
 
 ---
 
-## 🍎 01. Nutri-Invaders
+##  01. Nutri-Invaders
 
 <div align="center">
 
@@ -122,9 +122,9 @@ El jugador controla una nave espacial y debe destruir los alimentos representado
 
 ### 🎯 Tema
 
- **Alimentación saludable**
+🍎 **Alimentación saludable**
 
-### ️ Mecánica principal
+### ⚙️ Mecánica principal
 
 Mover la nave y disparar para eliminar los alimentos chatarra sin destruir los alimentos saludables.
 
@@ -139,7 +139,7 @@ Mover la nave y disparar para eliminar los alimentos chatarra sin destruir los a
 
 ---
 
-## ️ 02. EcoDrop
+## ♻️ 02. EcoDrop
 
 <div align="center">
 
@@ -147,7 +147,7 @@ Mover la nave y disparar para eliminar los alimentos chatarra sin destruir los a
 
 </div>
 
-###  Descripción
+### 📝 Descripción
 
 **EcoDrop** es un videojuego educativo basado en la clasificación de residuos.
 
@@ -168,14 +168,14 @@ El juego cuenta con cuatro categorías principales:
 
 🌎 **Reciclaje y cuidado del medio ambiente**
 
-### ⚙️ Mecánica principal
+### ️ Mecánica principal
 
 Mover los residuos mientras caen y colocarlos correctamente según el tipo de material.
 
 <div align="center">
 <br>
 
-[![🎮 JUGAR AHORA](https://img.shields.io/badge/_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/EcoDrop/)
+[![🎮 JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/EcoDrop/)
 
 [![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/EcoDrop)
 
@@ -220,13 +220,13 @@ Avanzar por el escenario mientras se responden correctamente diferentes pregunta
 
 [![ JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/PixelMathQuest/)
 
-[![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/PixelMathQuest)
+[![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/PixelMathQuest)
 
 </div>
 
 ---
 
-## 🖥️ 04. Detrás del Muro
+## ️ 04. Detrás del Muro
 
 <div align="center">
 
@@ -234,7 +234,7 @@ Avanzar por el escenario mientras se responden correctamente diferentes pregunta
 
 </div>
 
-### 📝 Descripción
+###  Descripción
 
 **Detrás del Muro** es una experiencia narrativa interactiva centrada en la problemática del **bullying y el acoso digital**.
 
@@ -246,11 +246,11 @@ Las decisiones tomadas durante la historia modifican el desarrollo de los aconte
 
 **Narrativa · Adventure · Simulación · Educativo**
 
-### 🎯 Tema
+###  Tema
 
 🖥️ **Bullying, presión social y acoso digital**
 
-### ⚙️ Mecánica principal
+### ️ Mecánica principal
 
 Interactuar con una computadora utilizando el mouse y tomar decisiones que modifican la historia.
 
@@ -265,7 +265,7 @@ Las decisiones del jugador pueden generar diferentes consecuencias y finales.
 
 [![🎮 JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/DetrasDelMuro/)
 
-[![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/DetrasDelMuro)
+[![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/DetrasDelMuro)
 
 </div>
 
@@ -275,7 +275,7 @@ Las decisiones del jugador pueden generar diferentes consecuencias y finales.
 
 <div align="center">
 
-<img src="RetoGota/img/reto-gota-inicio.png" width="750" alt="Reto Gota - Salva el Agua">
+<img src="RetoGota/img/reto-gota-infografia.png" width="750" alt="Reto Gota - Salva el Agua">
 
 </div>
 
@@ -292,12 +292,12 @@ El proyecto cuenta con **11 retos diferentes**:
 1. 🚰 Cerrar llaves
 2. 🔧 Conectar tuberías
 3. 💦 Reparar fugas
-4.  Llenar balde
-5.  Ducha eficiente
+4. 🪣 Llenar balde
+5. 🚿 Ducha eficiente
 6. 🩹 Sellar tubería
 7. 💧 Atrapar gotas
 8. 🔧 Regular válvula
-9.  Regar plantas
+9. 🌱 Regar plantas
 10. ♻️ Buenos hábitos
 11. 🌧️ Recolectar lluvia
 
@@ -324,9 +324,9 @@ Conseguir la mayor cantidad posible de:
 <div align="center">
 <br>
 
-[![🎮 JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/RetoGota/)
+[![🎮 JUGAR AHORA](https://img.shields.io/badge/_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/RetoGota/)
 
-[![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/RetoGota)
+[![ VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/RetoGota)
 
 </div>
 
@@ -336,7 +336,7 @@ Conseguir la mayor cantidad posible de:
 
 <div align="center">
 
-<img src="ElministerioDelInvierno/img/misterioinvierno-inicio.png" width="750" alt="El Misterio del Invierno">
+<img src="ElMisterioDelInvierno/img/misterioinvierno-inicio.png" width="750" alt="El Misterio del Invierno">
 
 </div>
 
@@ -352,7 +352,7 @@ El dinero obtenido debe utilizarse para cubrir las necesidades de su familia y a
 
 **Simulation · Strategy · Puzzle · Management · Educativo**
 
-### 🎯 Tema
+###  Tema
 
 💰 **Educación financiera y administración responsable del dinero**
 
@@ -368,19 +368,209 @@ Revisar documentos y decidir si las solicitudes deben ser aprobadas o rechazadas
 
 Utilizar el dinero obtenido para pagar gastos y mantener a la familia en condiciones adecuadas.
 
-### 📅 Progresión
+###  Progresión
 
 El juego se desarrolla durante **5 días**:
 
-```text
-🟢 DÍA 1
-   ↓
-🟢 DÍA 2
-   ↓
-🟡 DÍA 3
-   ↓
-🟠 DÍA 4
-   ↓
-🔴 DÍA 5
-   ↓
-🏆 FINAL
+🟢 **DÍA 1**  
+   ↓  
+🟢 **DÍA 2**  
+   ↓  
+🟡 **DÍA 3**  
+   ↓  
+ **DÍA 4**  
+   ↓  
+🔴 **DÍA 5**  
+   ↓  
+🏆 **FINAL**
+
+La dificultad y la presión económica aumentan conforme avanza el juego.
+
+### 🏆 Condición de victoria
+
+Sobrevivir los **5 días**, administrar correctamente los recursos y mantener a la familia a salvo.
+
+### 💀 Condición de derrota
+
+El jugador puede perder si acumula demasiadas penalizaciones o si los recursos necesarios para mantener a la familia llegan a niveles críticos.
+
+<div align="center">
+<br>
+
+[![ JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/ElMisterioDelInvierno/)
+
+[![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/ElMisterioDelInvierno)
+
+</div>
+
+---
+
+# 📊 Resumen de proyectos
+
+<div align="center">
+
+|    #   | Videojuego                   | Género                 | Tema                  |
+| :----: | ---------------------------- | ---------------------- | --------------------- |
+|  🍎 01 | **Nutri-Invaders**           | Shooter / Arcade       | Alimentación          |
+|  ♻️ 02 | **EcoDrop**                  | Puzzle / Arcade        | Reciclaje             |
+|  🧮 03 | **PixelMathQuest**           | Platformer / Adventure | Matemáticas           |
+| 🖥️ 04 | **Detrás del Muro**          | Narrative / Adventure  | Bullying              |
+|  💧 05 | **Reto Gota**                | Puzzle / Arcade        | Conservación del agua |
+|  ❄️ 06 | **El Misterio del Invierno** | Simulation / Strategy  | Educación financiera  |
+
+</div>
+
+---
+
+# 🎯 Objetivo del portafolio
+
+El objetivo de este conjunto de proyectos es demostrar cómo los videojuegos pueden utilizarse no solamente como entretenimiento, sino también como una herramienta para **educar, generar conciencia y transmitir diferentes conocimientos**.
+
+Cada videojuego utiliza una mecánica diferente para abordar su temática:
+
+🍎 **Nutri-Invaders** → Shooter Arcade → Alimentación saludable
+
+♻️ **EcoDrop** → Clasificación → Reciclaje
+
+🧮 **PixelMathQuest** → Platformer → Matemáticas
+
+🖥️ **Detrás del Muro** → Narrativa interactiva → Conciencia sobre el bullying
+
+💧 **Reto Gota** → Minijuegos → Cuidado del agua
+
+❄️ **El Misterio del Invierno** → Gestión y simulación → Educación financiera
+
+---
+
+# 🛠️ TECNOLOGÍAS UTILIZADAS
+
+<div align="center">
+
+| Tecnología | Utilización |
+|---|---|
+| 🌐 **HTML5** | Estructura de los videojuegos |
+| 🎨 **CSS3** | Diseño e interfaces |
+| ⚡ **JavaScript** | Lógica y mecánicas |
+| 🧠 **IA** | Apoyo durante el desarrollo |
+|  **Git** | Control de versiones |
+|  **GitHub** | Publicación y portafolio |
+| 💻 **Visual Studio Code** | Entorno de desarrollo |
+
+</div>
+
+---
+
+# 🤖 USO DE INTELIGENCIA ARTIFICIAL
+
+La **Inteligencia Artificial** fue utilizada como una herramienta de apoyo durante el desarrollo de los videojuegos.
+
+### 🧠 Aplicaciones de IA
+
+- 💡 Generación y mejora de ideas.
+-  Apoyo en programación.
+- 🐛 Resolución de errores.
+- ⚙️ Modificación y optimización de código.
+- 🎨 Propuestas para el diseño visual.
+- 🕹️ Desarrollo y mejora de mecánicas.
+- 🖼️ Generación de recursos.
+- 📚 Apoyo en documentación.
+
+> **La IA fue utilizada como herramienta de apoyo durante el proceso. La integración, adaptación, pruebas y decisiones finales de cada proyecto fueron realizadas durante el desarrollo.**
+
+---
+
+# 📚 ¿QUÉ APRENDÍ?
+
+Durante el desarrollo de estos proyectos adquirí experiencia en diferentes áreas del desarrollo de videojuegos.
+
+### 💻 Programación
+
+- JavaScript.
+- Eventos e interacción.
+- Lógica de videojuegos.
+- Mecánicas de juego.
+- Sistemas de puntuación.
+- Movimiento y colisiones.
+
+###  Diseño
+
+- Interfaces de usuario.
+- Organización visual.
+- Experiencia del jugador.
+- Presentación de proyectos.
+
+### 🎮 Game Development
+
+- Diseño de mecánicas.
+- Creación de prototipos.
+- Diseño de dificultad.
+- Conceptualización de videojuegos.
+- Pruebas y corrección de errores.
+
+###  GitHub
+
+- Creación de repositorios.
+- Organización de proyectos.
+- Archivos README.
+- Publicación de proyectos.
+- Uso básico de Git.
+
+---
+
+# 🚀 MEJORAS FUTURAS
+
+Los proyectos pueden continuar evolucionando mediante nuevas versiones.
+
+### 🔮 Posibles mejoras
+
+✨ Nuevos niveles  
+👾 Nuevos enemigos  
+🏆 Sistema de récords  
+🔊 Música y efectos de sonido  
+🎨 Animaciones más avanzadas  
+🌎 Nuevos escenarios  
+⚙️ Nuevas mecánicas  
+🎮 Mejor experiencia de usuario  
+ Adaptación para diferentes dispositivos
+
+---
+
+#  Galería
+
+Una selección de capturas de los diferentes proyectos:
+
+<div align="center">
+
+<img src="Nutri-Invaders/img/nutriinvaders-gameplay.png" width="300">
+
+<img src="EcoDrop/img/ecodrop-gameplay.png" width="300">
+
+<img src="PixelMathQuest/img/pixelmathquest-gameplay.png" width="300">
+
+<img src="DetrasDelMuro/img/detrasdelmuro-gameplay.png" width="300">
+
+<img src="RetoGota/img/reto-gota-infografia.png" width="300">
+
+<img src="ElMisterioDelInvierno/img/misterioinvierno-inicio.png" width="300">
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="assets/marco.jpg" width="120" alt="Logo">
+
+# 🎮 GAME DEVELOPMENT
+
+### 👨‍💻 Cristhian Giovanni Pacsi Pari
+
+**Game Development Portfolio**
+
+**HTML • CSS • JavaScript • GitHub • AI**
+
+---
+
+⭐ **Gracias por visitar mi portafolio** ⭐
+
+</div>
