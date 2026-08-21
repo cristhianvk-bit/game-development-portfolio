@@ -336,7 +336,7 @@ Conseguir la mayor cantidad posible de:
 
 <div align="center">
 
-<img src="ElmisterioDelInvierno/img/misterioinvierno-inicio.png" width="750" alt="El Misterio del Invierno">
+<img src="ElministerioDelInvierno/img/misterioinvierno-inicio.png" width="750" alt="El Misterio del Invierno">
 
 </div>
 
