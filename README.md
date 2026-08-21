@@ -1,10 +1,10 @@
 <div align="center">
 
-  <p align="center"> <img src="marco.jpg" alt="Portafolio Game Development" width="800"> </p>
+  <img src="assets/marco.jpg" width="800" alt="Portafolio Game Development">
 
-  # 🎮 VIDEO GAME DEVELOPMENT PORTFOLIO
+  #  VIDEO GAME DEVELOPMENT PORTFOLIO
 
-  ### ️ Proyectos • Creatividad • Programación • Videojuegos
+  ### 🕹️ Proyectos • Creatividad • Programación • Videojuegos
 
   <br>
 
@@ -106,7 +106,7 @@ Actualmente, el portafolio cuenta con **6 videojuegos**, cada uno con una temát
 
 </div>
 
-###  Descripción
+### 📝 Descripción
 
 **Nutri-Invaders** es un shooter arcade educativo inspirado en la mecánica clásica de **Space Invaders**.
 
@@ -116,7 +116,7 @@ El jugador controla una nave espacial y debe destruir los alimentos representado
 
 🟢 Los alimentos verdes representan **alimentos saludables** y deben evitarse.
 
-###  Género
+### 🎮 Género
 
 **Shooter · Arcade · Educativo**
 
@@ -131,15 +131,15 @@ Mover la nave y disparar para eliminar los alimentos chatarra sin destruir los a
 <div align="center">
 <br>
 
-[![🎮 JUGAR AHORA](https://img.shields.io/badge/_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/Nutri-Invaders/)
+[![🎮 JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/Nutri-Invaders/)
 
-[![ VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/Nutri-Invaders)
+[![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/Nutri-Invaders)
 
 </div>
 
 ---
 
-## ♻️ 02. EcoDrop
+## ️ 02. EcoDrop
 
 <div align="center">
 
@@ -147,7 +147,7 @@ Mover la nave y disparar para eliminar los alimentos chatarra sin destruir los a
 
 </div>
 
-### 📝 Descripción
+###  Descripción
 
 **EcoDrop** es un videojuego educativo basado en la clasificación de residuos.
 
@@ -183,7 +183,7 @@ Mover los residuos mientras caen y colocarlos correctamente según el tipo de ma
 
 ---
 
-## 🧮 03. PixelMathQuest
+##  03. PixelMathQuest
 
 <div align="center">
 
@@ -203,15 +203,15 @@ Las operaciones incluyen:
 ➖ Restas  
 ✖️ Multiplicaciones
 
-###  Género
+### 🎮 Género
 
 **Platformer · Adventure · Educativo**
 
 ### 🎯 Tema
 
- **Matemáticas básicas**
+🧮 **Matemáticas básicas**
 
-### ️ Mecánica principal
+### ⚙️ Mecánica principal
 
 Avanzar por el escenario mientras se responden correctamente diferentes preguntas matemáticas.
 
@@ -220,7 +220,7 @@ Avanzar por el escenario mientras se responden correctamente diferentes pregunta
 
 [![ JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/PixelMathQuest/)
 
-[![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/PixelMathQuest)
+[![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/PixelMathQuest)
 
 </div>
 
@@ -263,9 +263,9 @@ Las decisiones del jugador pueden generar diferentes consecuencias y finales.
 <div align="center">
 <br>
 
-[![🎮 JUGAR AHORA](https://img.shields.io/badge/_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/DetrasDelMuro/)
+[![🎮 JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/DetrasDelMuro/)
 
-[![ VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/DetrasDelMuro)
+[![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/DetrasDelMuro)
 
 </div>
 
@@ -292,12 +292,12 @@ El proyecto cuenta con **11 retos diferentes**:
 1. 🚰 Cerrar llaves
 2. 🔧 Conectar tuberías
 3. 💦 Reparar fugas
-4. 🪣 Llenar balde
-5. 🚿 Ducha eficiente
+4.  Llenar balde
+5.  Ducha eficiente
 6. 🩹 Sellar tubería
 7. 💧 Atrapar gotas
 8. 🔧 Regular válvula
-9. 🌱 Regar plantas
+9.  Regar plantas
 10. ♻️ Buenos hábitos
 11. 🌧️ Recolectar lluvia
 
@@ -324,7 +324,7 @@ Conseguir la mayor cantidad posible de:
 <div align="center">
 <br>
 
-[![🎮 JUGAR AHORA](https://img.shields.io/badge/_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/RetoGota/)
+[![🎮 JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/RetoGota/)
 
 [![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/RetoGota)
 
@@ -336,7 +336,7 @@ Conseguir la mayor cantidad posible de:
 
 <div align="center">
 
-<img src="ElministerioDelInvierno/img/misterioinvierno-inicio.png" width="750" alt="El Misterio del Invierno">
+<img src="ElMisterioDelInvierno/img/misterioinvierno-inicio.png" width="750" alt="El Misterio del Invierno">
 
 </div>
 
@@ -348,7 +348,7 @@ El jugador interpreta a un **Analista de Crédito y Racionamiento** que debe tra
 
 El dinero obtenido debe utilizarse para cubrir las necesidades de su familia y administrar correctamente los recursos disponibles.
 
-### 🎮 Género
+###  Género
 
 **Simulation · Strategy · Puzzle · Management · Educativo**
 
