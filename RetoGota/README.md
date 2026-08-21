@@ -135,7 +135,7 @@ El jugador debe mover el barril para colocarlo debajo de las gotas de lluvia y r
 ## 📊 Interfaz del juego
 
 <p align="center">
-  <img src="img/reto-gota-infografia.png" alt="Infografía y mecánicas de Reto Gota" width="750">
+  <img src="img/reto-gota-inicio.png" alt="Infografía y mecánicas de Reto Gota" width="750">
 </p>
 
 La interfaz presenta diferentes indicadores:
