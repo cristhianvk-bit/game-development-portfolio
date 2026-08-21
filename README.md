@@ -275,7 +275,7 @@ Las decisiones del jugador pueden generar diferentes consecuencias y finales.
 
 <div align="center">
 
-<img src="RetoGota/img/reto-gota-infografia.png" width="750" alt="Reto Gota - Salva el Agua">
+<img src="RetoGota/img/reto-gota-inicio.png" width="750" alt="Reto Gota - Salva el Agua">
 
 </div>
 
@@ -336,7 +336,7 @@ Conseguir la mayor cantidad posible de:
 
 <div align="center">
 
-<img src="ElMisterioDelInvierno/img/misterioinvierno-inicio.png" width="750" alt="El Misterio del Invierno">
+<img src="ElministerioDelInvierno/img/misterioinvierno-inicio.png" width="750" alt="El Misterio del Invierno">
 
 </div>
 
@@ -549,9 +549,9 @@ Una selección de capturas de los diferentes proyectos:
 
 <img src="DetrasDelMuro/img/detrasdelmuro-gameplay.png" width="300">
 
-<img src="RetoGota/img/reto-gota-infografia.png" width="300">
+<img src="RetoGota/img/reto-gota-inicio.png" width="300">
 
-<img src="ElMisterioDelInvierno/img/misterioinvierno-inicio.png" width="300">
+<img src="ElministerioDelInvierno/img/misterioinvierno-inicio.png" width="300">
 
 </div>
 
