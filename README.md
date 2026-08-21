@@ -397,7 +397,7 @@ El jugador puede perder si acumula demasiadas penalizaciones o si los recursos n
 <div align="center">
 <br>
 
-[![ JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/ElMisterioDelInvierno/)
+[![ JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/ElministerioDelInvierno/)
 
 [![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/ElMisterioDelInvierno)
 
