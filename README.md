@@ -263,7 +263,7 @@ Las decisiones del jugador pueden generar diferentes consecuencias y finales.
 <div align="center">
 <br>
 
-[![🎮 JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/DetrasDelMuro/)
+[![🎮 JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/DetrasDelMuro/detras-del-muro.html)
 
 [![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/DetrasDelMuro)
 
@@ -324,7 +324,7 @@ Conseguir la mayor cantidad posible de:
 <div align="center">
 <br>
 
-[![🎮 JUGAR AHORA](https://img.shields.io/badge/_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/RetoGota/)
+[![🎮 JUGAR AHORA](https://img.shields.io/badge/_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/RetoGota/detras-del-muro.html)
 
 [![ VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/RetoGota)
 
@@ -397,7 +397,7 @@ El jugador puede perder si acumula demasiadas penalizaciones o si los recursos n
 <div align="center">
 <br>
 
-[![ JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/ElMisterioDelInvierno/)
+[![ JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/ElministerioDelInvierno/detras-del-muro.html)
 
 [![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/ElMisterioDelInvierno)
 
