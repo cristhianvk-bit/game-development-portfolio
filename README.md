@@ -263,7 +263,7 @@ Las decisiones del jugador pueden generar diferentes consecuencias y finales.
 <div align="center">
 <br>
 
-[![🎮 JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/DetrasDelMuro/detras-del-muro.html)
+[![🎮 JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/DetrasDelMuro/)
 
 [![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/DetrasDelMuro)
 
@@ -275,7 +275,7 @@ Las decisiones del jugador pueden generar diferentes consecuencias y finales.
 
 <div align="center">
 
-<img src="RetoGota/img/reto-gota-inicio.png" width="750" alt="Reto Gota - Salva el Agua">
+<img src="RetoGota/img/reto-gota-infografia.png" width="750" alt="Reto Gota - Salva el Agua">
 
 </div>
 
@@ -324,7 +324,7 @@ Conseguir la mayor cantidad posible de:
 <div align="center">
 <br>
 
-[![🎮 JUGAR AHORA](https://img.shields.io/badge/_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/RetoGota/detras-del-muro.html)
+[![🎮 JUGAR AHORA](https://img.shields.io/badge/_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/RetoGota/)
 
 [![ VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/RetoGota)
 
@@ -336,7 +336,7 @@ Conseguir la mayor cantidad posible de:
 
 <div align="center">
 
-<img src="ElministerioDelInvierno/img/misterioinvierno-inicio.png" width="750" alt="El Misterio del Invierno">
+<img src="ElMisterioDelInvierno/img/misterioinvierno-inicio.png" width="750" alt="El Misterio del Invierno">
 
 </div>
 
@@ -397,7 +397,7 @@ El jugador puede perder si acumula demasiadas penalizaciones o si los recursos n
 <div align="center">
 <br>
 
-[![ JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/ElministerioDelInvierno/detras-del-muro.html)
+[![ JUGAR AHORA](https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white)](https://cristhianvk-bit.github.io/game-development-portfolio/ElMisterioDelInvierno/)
 
 [![📂 VER CÓDIGO DEL PROYECTO](https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/ElMisterioDelInvierno)
 
@@ -549,9 +549,9 @@ Una selección de capturas de los diferentes proyectos:
 
 <img src="DetrasDelMuro/img/detrasdelmuro-gameplay.png" width="300">
 
-<img src="RetoGota/img/reto-gota-inicio.png" width="300">
+<img src="RetoGota/img/reto-gota-infografia.png" width="300">
 
-<img src="ElministerioDelInvierno/img/misterioinvierno-inicio.png" width="300">
+<img src="ElMisterioDelInvierno/img/misterioinvierno-inicio.png" width="300">
 
 </div>
 
