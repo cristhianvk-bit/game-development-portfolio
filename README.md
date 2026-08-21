@@ -1,10 +1,11 @@
 <div align="center">
 
-  <img src="assets/marco.jpg" width="180" alt="Logo personal" style="border-radius: 50%; border: 4px solid #2D3748; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <img src="marco.jpg" alt="Portafolio Game Development" width="800" style="border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.3); margin-bottom: 20px;">
 
-  # 🎮 GAME DEVELOPMENT PORTFOLIO
+  # 🎮 VIDEO GAME DEVELOPMENT PORTFOLIO
 
-  ### 🕹️ Proyectos • Creatividad • Programación • Videojuegos
+  ### Una colección de videojuegos educativos e interactivos
+  *Aprender, experimentar y crear a través de los videojuegos.*
 
   <br>
 
@@ -12,141 +13,40 @@
   ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
   ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
   ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-  ![AI](https://img.shields.io/badge/Inteligencia_Artificial-10b981?style=for-the-badge&logo=openai&logoColor=white)
+  ![Game Design](https://img.shields.io/badge/Game_Design-ff6b6b?style=for-the-badge&logo=gamepad&logoColor=white)
 
 </div>
 
 ---
 
-## 👋 Bienvenido a mi portafolio
+## 👋 Sobre este proyecto
 
-<div align="center">
-  <h3>👨‍💻 Cristhian Giovanni Pacsi Pari</h3>
-  <p><strong>Estudiante de Game Development</strong></p>
-</div>
+Bienvenido a mi **portafolio de videojuegos**. Este repositorio reúne diferentes proyectos desarrollados como parte de mi proceso de aprendizaje y creación en el área de **Game Development**.
 
-> Soy estudiante de **Game Development**, apasionado por la programación, el diseño de videojuegos y la creación de experiencias interactivas memorables. Mis intereses se centran en la **acción, la estrategia, la competencia y la gestión**, disfrutando de las mecánicas únicas que cada género tiene para ofrecer.
+Cada proyecto busca combinar **jugabilidad, creatividad y aprendizaje**, utilizando mecánicas interactivas para transmitir mensajes sobre temas sociales y educativos:
 
----
-
-# 🎮 MIS INTERESES EN VIDEOJUEGOS
-
-## 🔥 Acción táctica y combate
-<div align="center">
-  <img src="assets/battlefield.png" width="220" alt="Battlefield" style="border-radius: 8px; margin: 5px;">
-  <img src="assets/hellletloose.png" width="220" alt="Hell Let Loose" style="border-radius: 8px; margin: 5px;">
-</div>
-<p align="center">
-  Me encanta la inmersión de los juegos de guerra a gran escala, especialmente la intensidad de los combates, la coordinación entre jugadores y el trabajo en equipo. <strong>Battlefield</strong> y <strong>Hell Let Loose</strong> destacan por sus escenarios, estrategia y sensación de inmersión.
-</p>
-
----
-
-## 🦸 Héroes y competencia
-<div align="center">
-  <img src="assets/overwatch.png" width="300" alt="Overwatch" style="border-radius: 8px; margin: 5px;">
-</div>
-<p align="center">
-  Disfruto de experiencias rápidas y competitivas. <strong>Overwatch</strong> destaca por su variedad de héroes, habilidades únicas, trabajo en equipo y ritmo de juego frenético.
-</p>
-
----
-
-## 🧠 Estrategia y gestión
-<div align="center">
-  <img src="assets/armymen.png" width="300" alt="Army Men RTS" style="border-radius: 8px; margin: 5px;">
-</div>
-<p align="center">
-  Me gusta la posibilidad de <strong>comandar unidades, tomar decisiones, administrar recursos y construir estrategias</strong> para alcanzar la victoria. <strong>Army Men RTS</strong> representa perfectamente este estilo de juego.
-</p>
-
----
-
-# 🕹️ SOBRE ESTE PORTAFOLIO
-
-Este repositorio reúne los **videojuegos y prototipos** desarrollados durante las primeras clases de la asignatura de **Game Development**. 
-
-### 💻 Tecnologías principales
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-> 🤖 **Nota:** Durante el desarrollo se utilizaron herramientas de **Inteligencia Artificial** como apoyo para tareas de programación, diseño, generación de ideas y resolución de problemas.
+* 🍎 Alimentación saludable
+* ♻️ Reciclaje y cuidado del medio ambiente
+* 🧮 Matemáticas básicas
+* 🖥️ Bullying y acoso digital
+* 💧 Conservación del agua
+* 💰 Educación financiera
 
 ---
 
 # 🎮 MIS VIDEOJUEGOS
 
+Actualmente, el portafolio cuenta con **6 videojuegos**, cada uno con una temática y mecánica única.
+
 <br>
 
-## 🎯 1. Pixel Math Quest
+## 🍎 01. Nutri-Invaders
 
 <div align="center">
-  <img src="assets/pixelMath.png" width="750" alt="Pixel Math Quest" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <img src="Nutri-Invaders/img/nutriinvaders-gameplay.png" alt="Nutri-Invaders" width="650" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 </div>
 
-### 🧮 Aprende matemáticas mientras juegas
-**Pixel Math Quest** es un videojuego educativo de plataformas inspirado en los clásicos juegos de aventura. El jugador debe avanzar por diferentes niveles mientras resuelve **operaciones matemáticas básicas**, superando obstáculos y desafíos.
-
-<div align="center">
-  <br>
-  <a href="https://cristhianvk-bit.github.io/game-development-portfolio/PixelMathQuest/" target="_blank">
-    <img src="https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white" alt="Jugar Ahora">
-  </a>
-  <br><br>
-  <a href="https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/PixelMathQuest" target="_blank">
-    <img src="https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white" alt="Ver Código del Proyecto">
-  </a>
-</div>
-<br>
-
-| 📌 Detalle | Descripción |
-|---|---|
-| 🎮 **Género** | Platformer / Educational |
-| 💻 **Tecnologías** | HTML, CSS, JavaScript |
-| 🎯 **Objetivo** | Resolver operaciones matemáticas y superar niveles |
-| 🧠 **Aprendizaje** | Eventos de teclado, sistemas de puntuación, diseño de interfaces y lógica de juego web. |
-
----
-
-## 🌱 2. EcoDrop
-
-<div align="center">
-  <img src="assets/Ecodr.png" width="750" alt="EcoDrop" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-</div>
-
-### ♻️ Clasifica. Reacciona. Recicla.
-**EcoDrop** es un videojuego educativo de tipo arcade basado en la **clasificación de residuos**. Desde la parte superior caen diferentes tipos de residuos y el jugador debe reaccionar rápidamente para colocarlos en el contenedor correspondiente.
-
-<div align="center">
-  <br>
-  <a href="https://cristhianvk-bit.github.io/game-development-portfolio/EcoDrop/" target="_blank">
-    <img src="https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white" alt="Jugar Ahora">
-  </a>
-  <br><br>
-  <a href="https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/EcoDrop" target="_blank">
-    <img src="https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white" alt="Ver Código del Proyecto">
-  </a>
-</div>
-<br>
-
-| 📌 Detalle | Descripción |
-|---|---|
-| 🎮 **Género** | Arcade / Educational |
-| 💻 **Tecnologías** | HTML, CSS, JavaScript |
-| 🎯 **Objetivo** | Clasificar correctamente los residuos (Papel, Plástico, Vidrio, Orgánico) |
-| 🧠 **Aprendizaje** | Manejo de eventos, temporizadores, incremento progresivo de dificultad y mecánicas arcade. |
-
----
-
-## 🥦 3. Nutri Invaders
-
-<div align="center">
-  <img src="assets/NutriInvaders.png" width="750" alt="Nutri Invaders" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-</div>
-
-### 👾 ¡Defiende una alimentación saludable!
-Inspirado en el clásico **Space Invaders**, pero con una temática de **alimentación saludable**. El jugador debe identificar y destruir los alimentos poco saludables (🔴) mientras evita atacar los alimentos saludables (🟢).
+**Nutri-Invaders** es un shooter arcade educativo inspirado en la mecánica clásica de *Space Invaders*. El jugador controla una nave espacial y debe destruir los alimentos chatarra (🔴) sin destruir los alimentos saludables (🟢).
 
 <div align="center">
   <br>
@@ -162,99 +62,179 @@ Inspirado en el clásico **Space Invaders**, pero con una temática de **aliment
 
 | 📌 Detalle | Descripción |
 |---|---|
-| 🎮 **Género** | Shooter / Arcade / Educational |
-| 💻 **Tecnologías** | HTML, CSS, JavaScript |
-| 🎯 **Objetivo** | Identificar y destruir correctamente los alimentos no saludables |
-| 🧠 **Aprendizaje** | Movimiento de enemigos, disparos, colisiones, detección de objetivos y aumento de dificultad. |
-
-> *💡 Nota: Si los enlaces de "Ver Código" no funcionan, asegúrate de que la rama de tu repositorio sea `main`. Si es `master`, cámbialo en la URL.*
+| 🎮 **Género** | Shooter · Arcade · Educativo |
+| 🎯 **Tema** | Alimentación saludable |
+| ⚙️ **Mecánica** | Mover la nave y disparar para eliminar comida chatarra, evitando la saludable. |
 
 ---
 
-# 🛠️ TECNOLOGÍAS UTILIZADAS
+## ♻️ 02. EcoDrop
 
 <div align="center">
-
-| Tecnología | Utilización |
-|:---:|:---|
-| 🌐 **HTML5** | Estructura y esqueleto de los videojuegos |
-| 🎨 **CSS3** | Diseño visual, estilos e interfaces de usuario |
-| ⚡ **JavaScript** | Lógica del juego, mecánicas e interactividad |
-| 🧠 **Inteligencia Artificial** | Apoyo en generación de ideas, optimización y debugging |
-| 🔧 **Git** | Control de versiones del código |
-| 🐙 **GitHub** | Alojamiento, publicación y portafolio |
-| 💻 **VS Code** | Entorno de desarrollo principal (IDE) |
-
+  <img src="EcoDrop/img/ecodrop-gameplay.png" alt="EcoDrop" width="650" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 </div>
 
----
-
-# 🤖 USO DE INTELIGENCIA ARTIFICIAL
-
-La **Inteligencia Artificial** fue utilizada como una herramienta de apoyo durante el desarrollo, **no como reemplazo** del proceso de aprendizaje.
-
-### 🧠 Aplicaciones prácticas:
-- 💡 Generación y mejora de ideas conceptuales.
-- 💻 Apoyo en la escritura y optimización de código.
-- 🐛 Resolución de errores (debugging).
-- 🎨 Propuestas para el diseño visual y recursos.
-- 🕹️ Desarrollo y refinamiento de mecánicas de juego.
-- 📚 Apoyo en la documentación y redacción.
-
-> ⚖️ **Declaración:** *La integración, adaptación, pruebas y decisiones finales de cada proyecto fueron realizadas y validadas manualmente durante el proceso de desarrollo.*
-
----
-
-# 📚 ¿QUÉ APRENDÍ?
-
-<div align="center">
-
-| 💻 Programación | 🎨 Diseño | 🎮 Game Dev | 🐙 GitHub |
-|:---|:---|:---|:---|
-| • Lógica de videojuegos<br>• Eventos e interacción<br>• Sistemas de puntuación<br>• Movimiento y colisiones | • Interfaces de usuario (UI)<br>• Organización visual<br>• Experiencia de usuario (UX)<br>• Presentación de proyectos | • Diseño de mecánicas<br>• Creación de prototipos<br>• Curva de dificultad<br>• Pruebas y QA | • Creación de repositorios<br>• Organización de carpetas<br>• Archivos README.md<br>• GitHub Pages |
-
-</div>
-
----
-
-# 🚀 MEJORAS FUTURAS
-
-Los proyectos están abiertos a evolución y nuevas versiones. Algunas ideas en mente:
-
-- ✨ Nuevos niveles y escenarios.
-- 👾 Variedad de enemigos y jefes finales.
-- 🏆 Sistema de récords (High Scores) con LocalStorage.
-- 🔊 Música de fondo y efectos de sonido (SFX).
-- 🎨 Animaciones más fluidas y avanzadas.
-- 📱 Adaptación *responsive* para dispositivos móviles.
-
----
-
-# 📊 RESUMEN DE PROYECTOS
-
-<div align="center">
-
-| 🎮 Proyecto | 🎯 Género | 💻 Tecnología | 📌 Estado |
-|:---|:---|:---|:---:|
-| 🎯 **Pixel Math Quest** | Platformer / Educational | HTML / CSS / JS | ✅ Completado |
-| 🌱 **EcoDrop** | Arcade / Educational | HTML / CSS / JS | ✅ Completado |
-| 🥦 **Nutri Invaders** | Shooter / Arcade | HTML / CSS / JS | ✅ Completado |
-
-</div>
-
----
+**EcoDrop** es un videojuego educativo basado en la clasificación de residuos. Los objetos aparecen cayendo y el jugador debe reaccionar rápidamente para colocarlos en su categoría correcta: 📄 Papel, 🧴 Plástico, 🍾 Vidrio o 🍎 Orgánico.
 
 <div align="center">
   <br>
-  <img src="assets/marco.jpg" width="100" alt="Logo" style="border-radius: 50%; opacity: 0.8;">
-  
-  <h3>🎮 GAME DEVELOPMENT</h3>
-  <p><strong>Cristhian Giovanni Pacsi Pari</strong></p>
-  <p>
-    <em>HTML • CSS • JavaScript • GitHub • AI</em>
-  </p>
-  
-  <br>
-  <p>⭐ <strong>¡Gracias por visitar mi portafolio!</strong> ⭐</p>
-  <br>
+  <a href="https://cristhianvk-bit.github.io/game-development-portfolio/EcoDrop/" target="_blank">
+    <img src="https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white" alt="Jugar Ahora">
+  </a>
+  <br><br>
+  <a href="https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/EcoDrop" target="_blank">
+    <img src="https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white" alt="Ver Código del Proyecto">
+  </a>
 </div>
+<br>
+
+| 📌 Detalle | Descripción |
+|---|---|
+| 🎮 **Género** | Puzzle · Arcade · Educativo |
+| 🎯 **Tema** | Reciclaje y cuidado del medio ambiente |
+| ⚙️ **Mecánica** | Mover los residuos mientras caen y colocarlos correctamente según el material. |
+
+---
+
+## 🧮 03. PixelMathQuest
+
+<div align="center">
+  <img src="PixelMathQuest/img/pixelmathquest-gameplay.png" alt="PixelMathQuest" width="650" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+</div>
+
+**PixelMathQuest** es un videojuego de plataformas inspirado en clásicos como *Mario Bros*. Mientras el jugador avanza por el escenario, debe resolver preguntas de matemáticas básicas (➕ Sumas, ➖ Restas, ✖️ Multiplicaciones) para continuar.
+
+<div align="center">
+  <br>
+  <a href="https://cristhianvk-bit.github.io/game-development-portfolio/PixelMathQuest/" target="_blank">
+    <img src="https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white" alt="Jugar Ahora">
+  </a>
+  <br><br>
+  <a href="https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/PixelMathQuest" target="_blank">
+    <img src="https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white" alt="Ver Código del Proyecto">
+  </a>
+</div>
+<br>
+
+| 📌 Detalle | Descripción |
+|---|---|
+| 🎮 **Género** | Platformer · Adventure · Educativo |
+| 🎯 **Tema** | Matemáticas básicas |
+| ⚙️ **Mecánica** | Avanzar por el escenario respondiendo correctamente preguntas matemáticas. |
+
+---
+
+## 🖥️ 04. Detrás del Muro
+
+<div align="center">
+  <img src="DetrasDelMuro/img/detrasdelmuro-gameplay.png" alt="Detrás del Muro" width="650" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+</div>
+
+**Detrás del Muro** es una experiencia narrativa interactiva centrada en el **bullying y el acoso digital**. El jugador vive la historia desde la perspectiva de *Mateo*, tomando decisiones que modifican el desarrollo de los acontecimientos y llevan a diferentes finales (narrativa ramificada).
+
+<div align="center">
+  <br>
+  <a href="https://cristhianvk-bit.github.io/game-development-portfolio/DetrasDelMuro/" target="_blank">
+    <img src="https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white" alt="Jugar Ahora">
+  </a>
+  <br><br>
+  <a href="https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/DetrasDelMuro" target="_blank">
+    <img src="https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white" alt="Ver Código del Proyecto">
+  </a>
+</div>
+<br>
+
+| 📌 Detalle | Descripción |
+|---|---|
+| 🎮 **Género** | Narrativa · Adventure · Simulación |
+| 🎯 **Tema** | Bullying, presión social y acoso digital |
+| ⚙️ **Mecánica** | Interactuar con una computadora virtual y tomar decisiones que alteran la historia. |
+
+---
+
+## 💧 05. Reto Gota – Salva el Agua
+
+<div align="center">
+  <img src="RetoGota/img/reto-gota-infografia.png" alt="Reto Gota" width="650" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+</div>
+
+**Reto Gota** es un videojuego compuesto por **11 minijuegos** relacionados con el cuidado del agua (cerrar llaves, conectar tuberías, reparar fugas, etc.). El jugador debe completar desafíos en el menor tiempo posible para conseguir puntos, ahorrar litros de agua y conservar vidas.
+
+<div align="center">
+  <br>
+  <a href="https://cristhianvk-bit.github.io/game-development-portfolio/RetoGota/" target="_blank">
+    <img src="https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white" alt="Jugar Ahora">
+  </a>
+  <br><br>
+  <a href="https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/RetoGota" target="_blank">
+    <img src="https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white" alt="Ver Código del Proyecto">
+  </a>
+</div>
+<br>
+
+| 📌 Detalle | Descripción |
+|---|---|
+| 🎮 **Género** | Puzzle · Arcade · Simulation |
+| 🎯 **Tema** | Ahorro y conservación del agua |
+| ⚙️ **Mecánica** | Completar minijuegos de acciones correctas para maximizar puntos y agua ahorrada. |
+
+---
+
+## ❄️ 06. El Misterio del Invierno
+
+<div align="center">
+  <img src="ElministerioDelInvierno/img/misterioinvierno-inicio.png" alt="El Misterio del Invierno" width="650" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+</div>
+
+**El Misterio del Invierno** es un juego de simulación y gestión ambientado en una ciudad congelada. Como *Analista de Crédito y Racionamiento*, debes trabajar durante **5 días**, procesando documentos (Fase laboral ☀️) y administrando el dinero para cubrir las necesidades de tu familia (Fase de administración 🌙).
+
+<div align="center">
+  <br>
+  <a href="https://cristhianvk-bit.github.io/game-development-portfolio/ElministerioDelInvierno/" target="_blank">
+    <img src="https://img.shields.io/badge/🎮_JUGAR_AHORA-10b981?style=for-the-badge&logo=gamejolt&logoColor=white" alt="Jugar Ahora">
+  </a>
+  <br><br>
+  <a href="https://github.com/cristhianvk-bit/game-development-portfolio/tree/main/ElministerioDelInvierno" target="_blank">
+    <img src="https://img.shields.io/badge/📂_VER_CÓDIGO_DEL_PROYECTO-3b82f6?style=for-the-badge&logo=github&logoColor=white" alt="Ver Código del Proyecto">
+  </a>
+</div>
+<br>
+
+| 📌 Detalle | Descripción |
+|---|---|
+| 🎮 **Género** | Simulation · Strategy · Management |
+| 🎯 **Tema** | Educación financiera y administración responsable |
+| ⚙️ **Mecánica** | Aprobar/rechazar solicitudes y administrar recursos para sobrevivir 5 días. |
+
+> *💡 **Nota sobre los enlaces:** Los botones "Jugar Ahora" asumen que tus proyectos están desplegados en GitHub Pages bajo la ruta `https://cristhianvk-bit.github.io/game-development-portfolio/[NombreCarpeta]/`. Si la ruta es diferente, solo ajusta el `href` del botón.*
+
+---
+
+# 📊 Resumen de Proyectos
+
+<div align="center">
+
+| # | Videojuego | Género | Temática |
+|:---:|:---|:---|:---|
+| 🍎 01 | **Nutri-Invaders** | Shooter / Arcade | Alimentación |
+| ♻️ 02 | **EcoDrop** | Puzzle / Arcade | Reciclaje |
+| 🧮 03 | **PixelMathQuest** | Platformer / Adventure | Matemáticas |
+| 🖥️ 04 | **Detrás del Muro** | Narrative / Adventure | Bullying |
+| 💧 05 | **Reto Gota** | Puzzle / Arcade / Sim | Conservación del agua |
+| ❄️ 06 | **El Misterio del Invierno** | Simulation / Strategy | Educación financiera |
+
+</div>
+
+---
+
+# 🎯 Objetivo del Portafolio
+
+El objetivo de este conjunto de proyectos es demostrar cómo los videojuegos pueden utilizarse no solamente como entretenimiento, sino también como una herramienta para **educar, generar conciencia y transmitir conocimientos**.
+
+```text
+🍎 Nutri-Invaders        → Shooter Arcade       → Alimentación saludable
+♻️ EcoDrop               → Clasificación        → Reciclaje
+🧮 PixelMathQuest        → Platformer           → Matemáticas
+🖥️ Detrás del Muro      → Narrativa interactiva→ Conciencia sobre el bullying
+💧 Reto Gota             → Minijuegos           → Cuidado del agua
+❄️ El Misterio del Inv.  → Gestión y simulación → Educación financiera
