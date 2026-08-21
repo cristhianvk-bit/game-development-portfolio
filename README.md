@@ -275,7 +275,7 @@ Las decisiones del jugador pueden generar diferentes consecuencias y finales.
 
 <div align="center">
 
-<img src="RetoGota/img/reto-gota-infografia.png" width="750" alt="Reto Gota - Salva el Agua">
+<img src="RetoGota/img/reto-gota-inicio.png" width="750" alt="Reto Gota - Salva el Agua">
 
 </div>
 
