@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/marco.jpg" width="800" alt="Portafolio Game Development">
+  <img src="assets/marco.jpg" width="300" alt="Portafolio Game Development">
 
   # 🎮 VIDEO GAME DEVELOPMENT PORTFOLIO
 
